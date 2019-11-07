@@ -1,0 +1,27 @@
+{
+  "name": "student_node_example",
+  "version": "1.0.0",
+  "description": "Node Sample Project",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sreejithkayyoor/node_smaple.git"
+  },
+  "author": "S$",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sreejithkayyoor/node_smaple/issues"
+  },
+  "homepage": "https://github.com/sreejithkayyoor/node_smaple#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.4",
+    "request": "^2.88.0"
+  }
+}
