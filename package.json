@@ -6,8 +6,12 @@
   "directories": {
     "test": "test"
   },
+  "jest": {
+    "verbose": true,
+    "testURL": "http://localhost:3000/"
+  },
   "scripts": {
-    "test": "test"
+    "test-jest": "jest"
   },
   "repository": {
     "type": "git",
@@ -25,5 +29,11 @@
     "mongodb": "^3.3.3",
     "nodemon": "^1.19.4",
     "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "axios": "^0.19.0",
+    "busboy": "^0.3.1",
+    "jest": "^22.4.4",
+    "supertest": "^4.0.2"
   }
 }

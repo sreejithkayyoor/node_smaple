@@ -17,8 +17,8 @@ let get = function (req,callback){
         console.log('saved to database')
         console.log(JSON.stringify(result.ops))
         client.close()
-        callback(null,req.body)        
-      })
+        callback(null,req.body)
+    })
   })
 }
 module.exports.get = get
